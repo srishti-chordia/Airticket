@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.hero {
+    background-image: url('homepage.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Content Container Styling */
+.content-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Transparent white background */
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.welcome-content p {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Welcome Button Styling */
+.welcome-header {
+    margin-bottom: 10px;
+}
+
+.welcome-button {
+    display: inline-block;
+    background-color: #b58929;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Connect Button Styling */
+.connect-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
